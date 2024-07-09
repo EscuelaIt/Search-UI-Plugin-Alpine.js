@@ -1,0 +1,21 @@
+{
+  "name": "alpine-plugin-search-ui",
+  "version": "1.0.0",
+  "description": "Plugin to create a search UI on an input element with Alpine.js",
+  "homepage": "https://escuelait.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Miguel Angel Alvarez",
+  "license": "MIT",
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "unpkg": "dist/cdn.min.js",
+  "devDependencies": {
+    "esbuild": "~0.16.17"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  }
+}
